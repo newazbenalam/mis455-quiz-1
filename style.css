@@ -8,18 +8,20 @@ body {
 }
 
 h2 {
-    margin: 0;
-    padding: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 30px;
 }
 
 .text-gradient {
-    font-size: 70px;
+    font-size: 80px;
     background: linear-gradient(to right, #000000,
-            #6a2079);
+    #6a2079);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    margin-bottom: 0.6rem;
+    padding-bottom: 0;
 }
-
 
 .bar {
     background-color: black;
@@ -33,21 +35,37 @@ h2 {
     width: 260px;
     background-color: white;
     padding: 25px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.192);
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.192);
     font-weight: 500;
     border-radius: 4px;
 }
 
-.login-card p {
-    color: gray;
+.login-card p:nth-child(2) {
+    /* color: gray; */
+    font-weight: 500;
+    /* font-size: medium; */
+    /* margin-top: 20px; */
+    margin-bottom: 24px;
 }
 
 .f-pass {
-    font-weight: 400;
-    margin-top: 5px;
+    font-weight: 500;
+    font-size: small;
     display: flex;
     text-align: end;
     flex-direction: column;
+}
+
+.signup {
+    font-weight: 500;
+    font-size: small;
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 53, 39);
 }
 
 .form {
@@ -64,9 +82,13 @@ input {
     border-radius: 5px;
 }
 
+input:hover  {
+    background-color: rgb(202, 227, 248);
+}
+
 
 button {
-    background-color: rgb(211, 62, 8);
+    background-color: rgb(255, 96, 39);
     padding: 10px;
     border: 0px;
     border-radius: 5px;
@@ -75,16 +97,25 @@ button {
     font-size: 16px;
 }
 
+button:hover{
+    background-color: rgb(240, 70, 8);
+    cursor: pointer;
+    /* border: .5px solid rgba(128, 128, 128, 0.781); */
+}
+
 .breaker {
     display: flex;
-    margin: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
     align-items: center;
 }
 
-hr {
+.breaker p {
+    padding-top: 4px;
+}
 
+hr {
     width: 40px;
-    height: 1px;
 }
 
 .box-container {
@@ -99,6 +130,12 @@ hr {
     border: 2px solid rgba(128, 128, 128, 0.418);
     border-radius: 5px;
     padding: 10px;
+}
+
+.box:hover {
+    border: 2px solid rgba(128, 128, 128, 0.781);
+    background-color: aliceblue;
+    cursor: pointer;
 }
 
 img {
