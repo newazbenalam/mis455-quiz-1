@@ -1,0 +1,107 @@
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    margin-left: 10vw;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.text-gradient {
+    font-size: 70px;
+    background: linear-gradient(to right, #000000,
+            #6a2079);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.bar {
+    background-color: black;
+    width: 100px;
+    height: 5px;
+}
+
+.login-card {
+    text-align: center;
+    margin: auto;
+    width: 260px;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.192);
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.login-card p {
+    color: gray;
+}
+
+.f-pass {
+    font-weight: 400;
+    margin-top: 5px;
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+}
+
+input {
+    background-color: rgb(228, 240, 250);
+    text-align: start;
+    border: 0px;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: rgb(211, 62, 8);
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.breaker {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+hr {
+
+    width: 40px;
+    height: 1px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.box {
+    border: 2px solid rgba(128, 128, 128, 0.418);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+img {
+    margin: auto;
+    width: 25px;
+}
