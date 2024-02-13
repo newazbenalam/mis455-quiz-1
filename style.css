@@ -32,7 +32,7 @@ h2 {
 .login-card {
     text-align: center;
     margin: auto;
-    width: 260px;
+    width: 320px;
     background-color: white;
     padding: 25px;
     box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.192);
@@ -129,7 +129,7 @@ hr {
 .box {
     border: 2px solid rgba(128, 128, 128, 0.418);
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
 }
 
 .box:hover {
