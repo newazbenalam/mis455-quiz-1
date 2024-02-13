@@ -10,7 +10,7 @@
 
 
 ## Preview
-![Test Image 4](https://raw.githubusercontent.com/newazbenalam/mis455-quiz-1/main/docs/Screenshot_13-2-2024_141047_127.0.0.1.jpeg)
+![Test Image 4](https://raw.githubusercontent.com/newazbenalam/mis455-quiz-1/main/docs/Screenshot_13-2-2024_173425_127.0.0.1.jpeg)
 
 
 ## Install
